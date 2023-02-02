@@ -8375,7 +8375,7 @@ h1, h2, h3, h4, h5,
     width: 40px;
     height: 40px;
     content: '';
-    background: #3e64ff;
+    background: transparent;
     z-index: -1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
