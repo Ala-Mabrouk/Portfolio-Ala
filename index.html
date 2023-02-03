@@ -5,6 +5,7 @@
 	<title>ALA MABROUK WEB PAGE</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="images/logo-bWeb.ico" type="image/x-icon" />
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -23,7 +24,7 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 
 	<link rel="stylesheet" href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
- 	<link rel="stylesheet" href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/vendor/aos/aos.css" rel="stylesheet">
 
 
@@ -49,8 +50,6 @@
 					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-					<!-- 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
- -->
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 				</ul>
 			</div>
@@ -69,21 +68,23 @@
 							<span class="txt-rotate" data-period="2000"
 								data-rotate='[ "Software Engineer", "Mobile Developer."]'></span>
 						</h2>
-						<div class="mouse pt-3" style="position: relative;bottom: 0px;">
 
-							<a href="#about-section" class="mouse-icon">
-								<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
-							</a>
-						</div>
 					</div>
 
 				</div>
 
 			</div>
 		</div>
+		<div class="mouse pt-3">
+			<a href="#" class="mouse-icon">
+				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+			</a>
+		</div>
 	</section>
-
-	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb mt-2" id="about-section">
+	<div class="hero-wrap goto-here">
+		<div class="overlay" style="height:100px;position: relative;"></div>
+	</div>
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb  " id="about-section">
 		<div class="container" id="myAbout">
 			<div class="row d-flex no-gutters">
 				<div class="col-md-6 col-lg-6 d-flex">
@@ -132,7 +133,9 @@
 								<span class="number" data-number="8">0</span>
 								<span>Project complete</span>
 							</p>
-							<p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+							<p><a target="_blank"
+									href="https://drive.google.com/drive/folders/1Qgb9gKYxRdtIo73_n1naWAk7tlh0tr5E?usp=sharing"
+									class="btn btn-primary py-3 px-3">Download CV</a></p>
 						</div>
 					</div>
 				</div>
@@ -162,7 +165,7 @@
 		</div>
 	</section>
 
-	<section class=" hero-wrap ftco-section ftco-no-pb goto-here" id="resume-section">
+	<section class=" hero-wrap ftco-section ftco-no-pb " id="resume-section">
 		<div class="overlay" style="width:100%;"></div>
 		<div class="container">
 			<div class="row">
@@ -186,11 +189,11 @@
 							<div class="text pl-3">
 								<span class="date">2021-2024</span>
 								<h2>National Diploma in Software Development Engineering</h2>
-								<span class="position">Higher Institute of Computer Science</span>
-								<p>
-									The curriculum includes maths, computer science, and technical courses, as well as
-									hands-on experience in workshops, internships, and projects.
-								</p>
+								<span class="position">Higher Institute of Computer Science, Ariana</span>
+								<p>The curriculum covers the principles of computing, such as programming, algorithms,
+									data structures, computer architecture, and software development. It also comprises
+									both academic and practical components, which are generally delivered through
+									hands-on projects, labs, workshops and internships.</p>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -200,11 +203,13 @@
 							<div class="text pl-3">
 								<span class="date">2018-2021</span>
 								<h2>Fundamental degree in computer science</h2>
-								<span class="position">Higher Institute of Computer Science of Mahdia</span>
-								<p>The curriculum covers the principles of computing, such as programming, algorithms,
-									data structures, computer architecture, and software development. It also comprises
-									both academic and practical components, which are generally delivered through
-									hands-on projects, labs, and internships.</p>
+								<span class="position">Higher Institute of Computer Science of Mahdia, Mahdia</span>
+								<p>
+									The curriculum includes maths, computer science,algorithms,
+									data structures, principles of computing and technical courses, as well as
+									hands-on experience in internships and projects.
+								</p>
+
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -214,8 +219,8 @@
 							<div class="text pl-3">
 								<span class="date">2017-2018</span>
 								<h2>Mathematics Baccalaureate</h2>
-								<span class="position">Ibn Rochd High School Chebba Mahdia</span>
-								<p>study of mathematics and related subjects, such as physics, chemistry, and computer
+								<span class="position">Ibn Rochd High School, Chebba, Mahdia</span>
+								<p>Study of mathematics and related subjects, such as physics, chemistry, and computer
 									science also study problem-solving, critical thinking, and analytical skills</p>
 							</div>
 						</div>
@@ -232,13 +237,17 @@
 								<span class="date">07/2022-08/2022</span>
 								<h2>Team Leader & Mobile Web devoloper</h2>
 								<span class="position">SITEM PARIS, Tunis</span>
-								<p>As a developer, I led the development of a web mobile application for IMG Security
-									with the goal of managing staff and orders within the company. We used the Scrum
-									methodology to produce a robust and scalable application that might increase
+								<p> As a part of summer internship, I took a part in leading the development of a web
+									mobile application for IMG Security
+									with the goal of managing staff and orders within the company IMG Security. We used
+									the Scrum methodology to produce a robust and scalable application that might
+									increase
 									efficiency. The ultimate product was a user-friendly program that could manage
 									people, allocate tasks, and track work orders.</p>
-								<p><b>Used technology and methodes :</b>Laravel, Flutter, GitLab, SCRUM,Jira,leadership
-									and team work</p>
+								<p>
+									<b>Tools : </b>
+									Laravel, PHP, Flutter, Dart, GitLab, SCRUM, Jira, leadership, team work
+								</p>
 							</div>
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -258,7 +267,7 @@
 									their issues. This application helped to improve customer satisfaction and
 									streamline the support process, enabling the company to deliver outstanding customer
 									service.</p>
-								<p><b>Used technology and methodes :</b>Asp.net core, Entity framework et MS SQL Server
+								<p><b>Tools : </b>Asp.net Core, C#, Entity framework, MS SQL Server
 								</p>
 							</div>
 						</div>
@@ -276,7 +285,7 @@
 									and connect with other photography enthusiasts. We utilized cutting-edge web
 									technologies to deliver a user-friendly and engaging experience that allowed users
 									to showcase their work and find inspiration</p>
-								<p><b>Used technology and methodes :</b>Angular, TypeScript, Firebase,Team work</p>
+								<p><b>Tools : </b>Angular, TypeScript, Firebase,Team work</p>
 							</div>
 						</div>
 
@@ -537,8 +546,8 @@
 							<div class="portfolio-wrap">
 								<img src="images/portfolio-1.jpg" class="img-fluid" alt="">
 								<div class="portfolio-links">
-									<a href="images/portfolio-1.jpg" data-gall="portfolioGallery"
-										class="venobox" title="My Ticket"><i class="icofont-clip"></i></a>
+									<a href="images/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox"
+										title="My Ticket"><i class="icofont-clip"></i></a>
 									<a target="_blank" href="https://github.com/Ala-Mabrouk/My_Ticket_1.0"
 										title="More Details"><i class="icofont-link"></i></a>
 								</div>
@@ -553,8 +562,8 @@
 							<div class="portfolio-wrap">
 								<img src="images/portfolio-2.png" class="img-fluid" alt="">
 								<div class="portfolio-links">
-									<a href="images/portfolio-2.png" data-gall="portfolioGallery"
-										class="venobox" title="CRT Chebba"><i class="icofont-clip"></i></a>
+									<a href="images/portfolio-2.png" data-gall="portfolioGallery" class="venobox"
+										title="CRT Chebba"><i class="icofont-clip"></i></a>
 									<a target="_blank" href="https://github.com/Ala-Mabrouk/CRT/tree/main/crt_chebba"
 										title="More Details"><i class="icofont-link"></i></a>
 								</div>
@@ -569,8 +578,8 @@
 							<div class="portfolio-wrap">
 								<img src="images/portfolio-3.png" class="img-fluid" alt="">
 								<div class="portfolio-links">
-									<a href="images/portfolio-3.png" data-gall="portfolioGallery"
-										class="venobox" title="My GreenHouse"><i class="icofont-clip"></i></a>
+									<a href="images/portfolio-3.png" data-gall="portfolioGallery" class="venobox"
+										title="My GreenHouse"><i class="icofont-clip"></i></a>
 									<a target="_blank" href="https://github.com/Ala-Mabrouk/MyGreenHouse"
 										title="More Details"><i class="icofont-link"></i></a>
 								</div>
@@ -585,8 +594,8 @@
 							<div class="portfolio-wrap">
 								<img src="images/portfolio-4.png" class="img-fluid" alt="">
 								<div class="portfolio-links">
-									<a href="images/portfolio-4.png" data-gall="portfolioGallery"
-										class="venobox" title="Karhabti"><i class="icofont-clip"></i></a>
+									<a href="images/portfolio-4.png" data-gall="portfolioGallery" class="venobox"
+										title="Karhabti"><i class="icofont-clip"></i></a>
 									<a target="_blank" href="https://github.com/Ala-Mabrouk/Karhabti"
 										title="More Details"><i class="icofont-link"></i></a>
 								</div>
@@ -700,73 +709,6 @@
 		</div>
 	</section>
 
-
-
-	<!-- <section class="ftco-section" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Blog</h1>
-            <h2 class="mb-4">Our Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-       <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-    </section> -->
-
 	<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
 		<div class="overlay"></div>
 		<div class="container">
@@ -829,7 +771,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Website</h3>
-							<p><a href="#">yoursite.com</a></p>
+							<p><a href="https://alamabroukmacode.000webhostapp.com/">macode.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -970,14 +912,6 @@
 
 	<script src="js/main.js"></script>
 
- 
-
-
-
-
-	 
- 
- 
 
 </body>
 
