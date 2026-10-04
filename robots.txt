@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ala-mabrouk.github.io/Portfolio-Ala/sitemap.xml
